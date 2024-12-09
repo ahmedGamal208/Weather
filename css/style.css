@@ -1,0 +1,192 @@
+body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+/* nav starts */
+nav {
+    background-color: #1E202B;
+}
+
+nav small {
+    font-size: 10px !important;
+    color: #bfc1c8;
+}
+
+
+nav li:first-child a {
+    color: #009ad8 !important;
+    border-color: #009ad8 !important;
+}
+
+nav li a {
+    font-size: 14px !important;
+    color: white !important;
+    font-weight: 400 !important;
+    padding: 5px 25px !important;
+    border: 2px solid transparent !important;
+    border-radius: 30px !important;
+}
+
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: all 0.2s;
+}
+
+nav li:hover .nav-link {
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+/* nav ends */
+
+/* ------------------------------------------------------------------------- */
+
+/* hero section starts */
+.hero {
+    background-image: url(../images/banner.png);
+    min-height: 350px;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.input-field {
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.input-field::placeholder {
+    color: grey;
+}
+
+.input-field:focus {
+    background: #1e202b;
+    color: white;
+    box-shadow: none;
+}
+
+button {
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 40px;
+}
+/* hero section ends */
+
+/* ----------------------------------------------------------------- */
+
+/* cards start */
+.card-header {
+    font-weight: 400;
+    color: #bfc1c8;
+    font-size: 14px;
+}
+
+.start-end {
+    background-color: #2D303D; 
+}
+
+.middle {
+    background-color: #222530;
+}
+
+.start-end-body {
+    background-color: #323544;
+}
+
+.middle-body {
+    background-color: #262936;
+}
+
+.card-body {
+    color: #bfc1c8;
+}
+
+.forecast {
+    color: #009ad8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.number {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.custom {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-body small {
+    font-size: 16px;
+}
+
+.f-card {
+    border-radius: 10px 0 0 10px !important;
+}
+
+.f-card .card-header {
+    border-radius: 10px 0 0 0px !important;
+}
+
+.f-card .card-body {
+    border-radius: 0 0 0 10px !important;
+}
+
+.third-card {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+.third-card .card-header {
+    border-radius: 0 10px 0px 0 !important;
+}
+
+.third-card .card-body {
+    border-radius: 0 0 10px 0  !important;
+}
+/* cards end */
+
+
+
+/* ------------------------------------------------------------- */
+
+/* footer starts */
+footer {
+    background-color: #262936;
+}
+
+.social-links li a{
+    background-color: #1E202B;
+    color: #009ad8 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-links li:hover .btn{
+    background-color: #009ad8 !important;
+    color: white !important;
+}
+
+.copyright {
+    color: #bfc1c8 !important;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+/* footer ends */

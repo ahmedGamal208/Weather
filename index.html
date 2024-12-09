@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ----------------------- Navbar ----------------------- -->
+    <nav class="navbar navbar-expand-lg py-5">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center justify-content-center gap-2"
+          href="#"
+        >
+          <img
+            src="./images/logo.png"
+            alt="Logo"
+            class="d-inline-block align-text-top"
+          />
+          <div
+            class="d-flex flex-column justify-content-around align-items-start"
+          >
+            <h1 class="fs-6 fw-bold mb-1 text-white">Weather</h1>
+            <small>tagline goes here</small>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler border-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-white"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav d-flex gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ----------------------- Hero Section ----------------------- -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="position-relative">
+          <input
+            type="text"
+            class="form-control input-field"
+            placeholder="Find your location..."
+            id="search"
+          />
+          <button
+            class="position-absolute top-50 end-0 translate-middle-y me-1"
+            id="findBtn"
+          >
+            Find
+          </button>
+        </div>
+      </div>
+
+      <!-- ----------------------- Cards ----------------------- -->
+
+      <div class="container py-5">
+        <div class="row allTemp row-cols-1 row-cols-md-3 gap-0"></div>
+      </div>
+    </section>
+
+    <!-- ----------------------- Footer ----------------------- -->
+
+    <footer class="py-5">
+      <div class="container">
+        <div class="row gy-3 align-items-center justify-content-center">
+          <div class="col-md-8 position-relative">
+            <input
+              type="text"
+              class="form-control input-field"
+              placeholder="Enter your email to subscribe..."
+              id="search"
+            />
+            <button
+              class="position-absolute top-50 end-0 translate-middle-y me-3"
+            >
+              Subscribe
+            </button>
+          </div>
+          <div class="col-md-4">
+            <ul
+              class="d-flex list-unstyled justify-content-center align-items-center gap-2 social-links mb-0"
+            >
+              <li>
+                <a class="btn text-center" href=""
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a class="btn text-center" href=""
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="btn text-center" href=""
+                  ><i class="fa-brands fa-google-plus-g"></i
+                ></a>
+              </li>
+              <li>
+                <a class="btn text-center" href=""
+                  ><i class="fa-brands fa-pinterest"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright mt-5">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
